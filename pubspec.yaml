@@ -21,7 +21,10 @@ flutter:
         default_package: camera_web
 
 dependencies:
-  camera_android: ^0.10.7
+  camera_android:
+    git:
+      publish_to: none
+      url: https://github.com/o-ifeanyi/camera_android
   camera_avfoundation: ^0.9.13
   camera_platform_interface: ^2.5.0
   camera_web: ^0.3.1
